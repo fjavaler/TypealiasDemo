@@ -11,6 +11,8 @@
 		AC3F99362669B2E400BAB398 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F99352669B2E400BAB398 /* ContentView.swift */; };
 		AC3F99382669B2E500BAB398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3F99372669B2E500BAB398 /* Assets.xcassets */; };
 		AC3F993B2669B2E500BAB398 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3F993A2669B2E500BAB398 /* Preview Assets.xcassets */; };
+		AC3F99442669B98000BAB398 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F99432669B98000BAB398 /* MovieModel.swift */; };
+		AC3F99462669BA3800BAB398 /* TVModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F99452669BA3800BAB398 /* TVModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		AC3F99372669B2E500BAB398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC3F993A2669B2E500BAB398 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC3F993C2669B2E500BAB398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3F99432669B98000BAB398 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		AC3F99452669BA3800BAB398 /* TVModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				AC3F99332669B2E400BAB398 /* TypealiasDemoApp.swift */,
+				AC3F99422669B97400BAB398 /* Models */,
 				AC3F99352669B2E400BAB398 /* ContentView.swift */,
 				AC3F99372669B2E500BAB398 /* Assets.xcassets */,
 				AC3F993C2669B2E500BAB398 /* Info.plist */,
@@ -67,6 +72,15 @@
 				AC3F993A2669B2E500BAB398 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC3F99422669B97400BAB398 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC3F99432669B98000BAB398 /* MovieModel.swift */,
+				AC3F99452669BA3800BAB398 /* TVModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC3F99442669B98000BAB398 /* MovieModel.swift in Sources */,
 				AC3F99362669B2E400BAB398 /* ContentView.swift in Sources */,
 				AC3F99342669B2E400BAB398 /* TypealiasDemoApp.swift in Sources */,
+				AC3F99462669BA3800BAB398 /* TVModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
